@@ -1,0 +1,13 @@
+Endpoint is a simple C++ endpoint that logs traffic to a text file
+
+# Prerequisites
+```
+apt install build-essential autotools mingw-w64
+```
+
+# Building
+## For Windows
+```
+mkdir build
+cd build
+../configure --build i686-pc-linux-gnu --host x86_64-pc-mingw32
